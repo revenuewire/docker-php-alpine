@@ -7,7 +7,7 @@ RUN set -x \
 RUN apk --update add apache2 php8  php8-apache2 php8-ctype php8-openssl \
         php8-curl php8-pecl-apcu php8-opcache php8-bcmath php8-simplexml php8-xml \
         php8-intl php8-iconv php8-mbstring php8-session php8-common \
-        bash
+        bash util-linux-misc
 
 ENV HTTPD_PREFIX /var/src/html
 RUN mkdir -p "$HTTPD_PREFIX" \
