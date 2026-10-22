@@ -1,5 +1,5 @@
 FROM alpine:3.21
-LABEL maintainer="leo@mokkkkresbymedia.com"
+LABEL maintainer="leo@moresbymedia.com"
 
 RUN set -x \
 	&& adduser -u 82 -D -S -G www-data www-data
